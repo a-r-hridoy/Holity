@@ -96,25 +96,10 @@ header{
 .nav_link{
     list-style: none;
 }
-.nav_link li{
-    display: inline-block;
-    padding: 0 15px;
-    margin-top: 18px;
+.navbar-expand-lg .navbar-nav .nav-link {
+   
+    margin: 0 11px;
 }
-.nav_link li a{
-    transition: all 0.4s ease 0s;
-    font-size: 15px;
-    align-items: center;
-}
-.nav_link li i{
-    margin-left: 10px;
-}
-
-.nav_link li a:hover{
-    transition: all 0.4s ease 0s;
-    transition: .5s ;
-}
-
 button{
     padding: 12px 40px;
     border: none;
@@ -469,6 +454,7 @@ padding: 110px 0;
 }
 .list a{
     color: #727C82;
+    font-size: 18px;
 }
 .list li {
     font-size: 18px;
@@ -476,6 +462,7 @@ padding: 110px 0;
     color: #727C82;
     line-height: 1.9;
 }
+
 .list-md li{
     margin-left: -25px;
     line-height: 1.9;
@@ -543,7 +530,7 @@ padding: 110px 0;
         bottom: 50%;
         z-index: -11111;
         max-width: 40%;
-        height: 200px;
+        height: 250px;
     }
     .donation2-content h2{
         font-size: 60px;
@@ -824,3 +811,138 @@ padding: 110px 0;
 
 
 /* contact-section-end */
+
+
+
+/* -------------------------------------------------------------------------------------------- */
+
+                                    /* section-support */
+
+/* -------------------------------------------------------------------------------------------- */
+
+.section-support{
+    padding: 150px 0;
+    background-color: #E8F5E9;
+}
+.support-content{
+    text-align: center;
+}
+.support-content h2{
+    font-size: 65px;
+}
+.support-content p{
+    font-size: 22px;
+    max-width: 700px;
+    margin: auto;
+    color: #727C82;
+    padding: 30px 0 ;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.support-box{
+    text-align: center;
+}
+
+.support-box h2{
+    font-size: 40px;
+    padding-top: 20px;
+    color: #435059;
+}
+
+.support-box p{
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #727C82;
+    max-width: 400px;
+    padding-top: 10px;
+    margin: auto;
+}
+
+.box1{
+    position: relative;
+    display: inline-block;
+    font-weight: 400;
+    font-family: "DM Serif Display", "Times New Roman", Times, serif;
+    font-size: 5.5em;
+    width: 1.1em;
+    height: 1.1em;
+    overflow: hidden;
+    content: '';
+    border-radius: 50%;
+    color: #ffffff;
+    background-color: #e78b72;
+}
+.box2{
+    position: relative;
+    display: inline-block;
+    font-weight: 400;
+    font-family: "DM Serif Display", "Times New Roman", Times, serif;
+    font-size: 5.5em;
+    width: 1.1em;
+    height: 1.1em;
+    overflow: hidden;
+    content: '';
+    border-radius: 50%;
+    color: #ffffff;
+    background-color: #b6d8c0;
+}
+
+/* section-donate-start */
+.section-donate{
+    padding: 100px 0;
+}
+
+.donate-top-cotent h2{
+    font-size: 50px;
+    text-align: center;
+    padding: 50px 0;
+    color: #435059;
+}
+.donate-box {
+    margin-left: 150px;
+}
+.donate-box img{
+    max-width: 60px;
+    padding-top: 50px;
+}
+
+.donate-box h2{
+    font-size: 38px;
+    color: #435059;
+    padding: 20px 0;
+}
+
+.donate-box p{
+    font-size: 20px;
+    max-width: 485px;
+    color: #727C82;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.donate-box h6{
+    color: #e78b72;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+}
+.donate-btn{
+    margin: 10px 0;
+    padding: 15px 45px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 22px;
+    border-radius: 5px;
+    font-weight: 600;
+    background-color: #F77D5C;
+    border: none;
+    transition: .3s;
+}
+.donate-btn:hover{
+    background-color: #435059;
+    transform: translate(-4px, -4px);
+    box-shadow: 5px 5px 0 0 #F77D5C;
+}
+
+/* section-donate-end */
+
+.section-donation1{
+    padding: 150px 0;
+}
+
