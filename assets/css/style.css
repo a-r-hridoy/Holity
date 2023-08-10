@@ -120,6 +120,29 @@ button:hover{
     transform: translate(-4px, -4px);
     box-shadow: 4px 4px 0 0 #6faf9f;
 }
+
+.navbar-toggler{
+   
+    padding: var(--bs-navbar-toggler-padding-y) var(--bs-navbar-toggler-padding-x);
+    font-size: var(--bs-navbar-toggler-font-size);
+    line-height: 1;
+    color: var(--bs-navbar-color);
+    background-color: transparent;
+    border: var(--bs-border-width) solid var(--bs-navbar-toggler-border-color);
+    border-radius: var(--bs-navbar-toggler-border-radius);
+    transition: var(--bs-navbar-toggler-transition);
+
+}
+.navbar-toggler:hover{
+    background-color:#fff ;
+    transform: none;
+    box-shadow:none;
+
+}
+.navbar-toggler:focus{
+    outline: none;
+}
+
 .logo{
     max-width: 160px;
 }
@@ -615,6 +638,86 @@ overflow-x: hidden;
     }
 }
 
+@media screen and (max-width: 375px){
+    .navbar-text {
+        position: relative;
+        left:  230px;
+        top: .10px;
+    }
+    button {
+        padding: 10px 35px;
+    }
+    .program02-top-content p {
+        font-size: 16px;
+    }
+    .section-donation2 {
+        background-color: #FDECD2;
+        padding: 185px 0 30px 0!important;
+    }    
+    
+}
+
+
+@media screen and (max-width: 320px){
+    .navbar-text {
+        position: relative;
+        left:  200px;
+        top: .10px;
+    }
+    button {
+        padding: 8px 20px;
+    }
+    .layout-1 img {
+        margin-top: 30px;
+    }
+    h1, .h1 {
+        font-size: 30.4px;
+    }
+    .home-content button {
+        margin: 30px 0;
+        padding: 13px 18px;
+    }
+    .text-block h2 {
+        font-size: 25px;
+    }
+    .layout-2-text h1 {
+        font-size: 24px;
+    
+    }
+    .home-content button {
+        margin: 0;
+        padding: 11px 14px;
+    }
+    .program-top-content h2 {
+        font-size: 30px;
+    }
+    .program-top-content p {
+        font-size: 12px;
+        padding: 17px 0;
+        max-width: 400px;
+    }
+    .section-program {
+        padding: 45px;
+    }
+    .card-title {
+        font-size: 17px;
+        padding: 15px 0px!important;
+    }
+    .card-body li {
+        padding: 0px;
+    }
+    .donation-content h2 {
+        font-size: 30px;
+    }
+    .donation-content p {
+        font-size: 15px;
+    }
+    .donation-content button {
+        margin: 30px 0 0;
+        padding: 13px 15px;
+    }
+}
+
 /* -------------------------------------------------------------------------------------------- */
 
                                     /* Section-about */
@@ -803,6 +906,37 @@ overflow-x: hidden;
     }
 }
 
+@media screen and (max-width: 320px){
+    .section-donation2 {
+        background-color: #FDECD2;
+        padding: 192px 0px 60px 0;
+    }
+    .donation2-content h2 {
+        font-size: 30px;
+    }
+    .donation2-content p {
+        font-size: 13px;
+    }
+    .home-about {
+        padding: 50px 0!important;
+    }
+    .layout-4 .layout-item {
+        display: none;
+    }
+    .layout-4-text h1 {
+        font-size: 26px;
+        padding: 8px 0px 0 0;
+    }
+    .home-content p {
+        font-size: 13px;
+    }
+    .section-about-content p {
+        font-size: 16px;
+    }
+
+
+}
+
 
 /* -------------------------------------------------------------------------------------------- */
 
@@ -817,6 +951,7 @@ overflow-x: hidden;
 /* section-program02-start */
 .section-program02{
     padding: 50px;
+    margin-top: 50px;
 }
 .program02-top-content{
     text-align: center;
@@ -903,6 +1038,28 @@ overflow-x: hidden;
         padding: 50px 0;
     }
 }
+
+
+@media screen and (max-width: 475px){
+    .section-program02 {
+        padding: 70px 0 0 0;
+        margin-top: 50px;
+    }
+}
+@media screen and (max-width: 320px){
+    .program02-top-content h2 {
+        font-size: 35px;
+        padding: 50px 0 0px 0;
+    }
+    .program02-top-content p {
+        font-size: 15px;
+    }
+    .card02-title {
+        font-size: 23px;
+    }
+}
+
+
 
 /* -------------------------------------------------------------------------------------------- */
 
@@ -1019,7 +1176,21 @@ overflow-x: hidden;
         padding: 11px 78px 0 0;
     }
 }
-
+@media screen and (max-width: 320px){
+    .contact-section{
+        padding: 150px 0 50px 0;
+    }
+    .contact-content h2 {
+        font-size: 35px;
+    }
+    .contact-content p {
+        padding: 11px 0px 0 0;
+    }
+    .contact-btn {
+        padding: 10px 40px;
+        font-size: 18px;
+    }
+}
 
 /* -------------------------------------------------------------------------------------------- */
 
@@ -1172,5 +1343,55 @@ overflow-x: hidden;
     .support-content p {
         font-size: 20px;
         padding: 37px 0;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .support-content p {
+        font-size: 15px;
+    }
+    .support-box {
+        padding-top: 30px;
+    }
+    .support-box h2 {
+        font-size: 30px;
+    }
+    .support-box p{
+        font-size: 16px;
+    }
+    .box1{
+        font-size: 4.5rem;
+    }
+    .box2{
+        font-size: 4.5rem;
+    }
+    .section-support {
+        padding: 150px 0 70px 0;
+    }
+    .donate-top-cotent h2 {
+        padding: 0;
+        font-size: 35px;
+    }
+    .donate-box {
+        margin-left: 15px;
+    }
+    .donate-box img {
+        max-width: 50px;
+    }
+    .donate-box h2 {
+        font-size: 25px;
+    }
+    .donate-box p {
+        font-size: 17px;
+    }
+    .donate-box h6 {
+        font-size: 16px;
+    }
+    .donate-btn {
+        padding: 13px 35px;
+        font-size: 18px;
+    }
+    .donation-content button{
+        font-size: 16px;
     }
 }
