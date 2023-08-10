@@ -76,6 +76,9 @@ li, a, button{
     transform: translate(-4px, -4px);
     box-shadow: 4px 4px 0 0 #6faf9f!important;
 }
+.small, small {
+    font-size: 1.05rem;
+}
 /* modal-end */
 
 
