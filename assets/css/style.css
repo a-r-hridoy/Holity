@@ -400,6 +400,7 @@ button:hover{
 .section-donation{
 background-color: #def1df;
 padding: 110px 0;
+overflow-x: hidden;
 }
 
 .layout {
@@ -537,6 +538,11 @@ padding: 110px 0;
     }
 }
 @media screen and (max-width: 768px){
+    .navbar-text {
+        position: absolute;
+        right: 100px;
+        top: 12px;
+    }
     h1, .h1 {
         font-size: 32.4px;
     }
@@ -560,21 +566,15 @@ padding: 110px 0;
 
 @media screen and (max-width: 576px){
     .layout-1 img {
-        max-width: 80%!important;
-        margin-left: 50px;
+        max-width: 100%!important;
         border-radius: 20px;
     }
     h1, .h1 {
         font-size: 36.4px;
         padding: 18px 0;
-        margin-left: 45px;
-    }
-    .home-content p {
-        margin-left: 48px;
     }
     .home-content button {
         margin: 10px 0;
-        margin-left: 45px;
     }
     .text-block h2 {
         font-size: 30px;
@@ -595,13 +595,12 @@ padding: 110px 0;
         text-align: center;
     }
     .layout-2 img {
-        max-width: 80%!important;
-        margin-left: 50px;
+        max-width: 100%!important;
         border-radius: 20px;
     }
     .layout-2-text h1 {
         font-size: 26px;
-        margin: 15px;
+        padding: 15px 0 ;
     }
     .program-top-content h2 {
         font-size: 48px;
@@ -610,6 +609,9 @@ padding: 110px 0;
         font-size: 15px;
         padding: 17px 0;
         max-width: 400px;
+    }
+    .card{
+        align-items: center;
     }
 }
 
@@ -674,6 +676,7 @@ padding: 110px 0;
 /* home-section-start */
 .home-section{
     padding: 125px 0;
+    overflow-x: hidden;
 }
 .home-about{
     padding: 120px 0;
@@ -778,8 +781,7 @@ padding: 110px 0;
         font-size: 15px;
     }
     .layout-4 img {
-        max-width: 80%;
-        margin-left: 50px;
+        max-width: 100%;
         border-radius: 20px;
     }
     .layout-4-text {
@@ -1149,6 +1151,7 @@ padding: 110px 0;
 
 .section-donation1{
     padding: 150px 0;
+    overflow-x: hidden;
 }
 
 @media screen and (max-width: 992px){
