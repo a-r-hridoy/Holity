@@ -653,8 +653,17 @@ overflow-x: hidden;
     .section-donation2 {
         background-color: #FDECD2;
         padding: 185px 0 30px 0!important;
-    }    
-    
+    }   
+    .program02-top-content h2 {
+        padding: 25px 0!important;
+    } 
+    .contact-content h2 {
+        max-width: 350px;
+        margin-top: 70px;
+    }
+    .layout-1 img{
+        margin-top: 50px;
+    }
 }
 
 
