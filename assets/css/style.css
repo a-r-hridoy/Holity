@@ -111,6 +111,7 @@ button{
     color: #fff;
     cursor: pointer;
     font-size: 15px;
+    border-radius: 5px;
     font-weight: bold;transition: .2s;
 }
 
@@ -189,7 +190,7 @@ button:hover{
     color: #435059;
 }
 .layout-2-text {
-    padding-left: 30px;
+    /* padding-left: 30px; */
 }
 
 .layout-2-text h1{
@@ -341,7 +342,7 @@ button:hover{
 
 /* section-program-start */
 .section-program{
-    padding: 50px;
+    /* padding: 50px; */
 }
 .program-top-content{
     text-align: center;
@@ -364,19 +365,20 @@ button:hover{
 .card{
     border: none;
 }
-
-.card img{
+.card-image {
+    overflow: hidden ;
+}
+.card-image img{
     transition: .5s;
 }
-.card img:hover{
-    overflow: hidden; 
-    transform: scale(1.1);
+.card-image img:hover{
+    transform: scale(1.2);
 }
 
 .card-title{
-    font-size: 30px;
+    font-size: 26px;
     text-align: center;
-    padding: 15px 40px;
+    padding: 15px 0px;
     color: #435059;
     transition: .5s;
 }
@@ -390,7 +392,7 @@ button:hover{
 }
 .card-body li{
     display: inline-block;
-    padding: 10px 10px;
+    padding: 6px 4px;
     font-size: 18px;
     color: #e78b72;
 }
@@ -555,6 +557,10 @@ overflow-x: hidden;
     .layout-2-text h1 {
         font-size: 38px;
     }
+    .card-title {
+        font-size: 24px;
+        padding: 0px 0px;
+    }
 }
 @media screen and (max-width: 768px){
     h1, .h1 {
@@ -573,8 +579,11 @@ overflow-x: hidden;
         font-size: 29px;
     }
     .card-title {
-        font-size: 25px;
-        padding: 15px 11px!important;
+        font-size: 20px;
+        padding: 0px 0px!important;
+    }
+    .card-body li {
+        padding: 5px 9px;
     }
 }
 
@@ -630,9 +639,6 @@ overflow-x: hidden;
     }
     .home-content button {
         padding: 12px 15px;
-    }
-    .section-program {
-        padding: 20px;
     }
     .program{
         padding: 50px;
@@ -746,6 +752,7 @@ overflow-x: hidden;
     top: -65%;
     z-index: -1;
     max-width: 50%;
+    display: none;
 }
 .layout-1 img {
     display: inline-block;
@@ -881,8 +888,7 @@ overflow-x: hidden;
 
 /* section-program02-start */
 .section-program02{
-    padding: 50px;
-    margin-top: 50px;
+    margin-top: 75px;
 }
 .program02-top-content{
     text-align: center;
@@ -906,20 +912,21 @@ overflow-x: hidden;
     border: none;
     padding: 40px 0;
 }
-
-.card02 img{
-   width: 100%;
+.card02-image {
+    overflow: hidden ;
+}
+.card02-image img{
     transition: .5s;
 }
-.card02 img:hover{
-    overflow: hidden; 
-    transform: scale(1.1);
+.card02-image img:hover{
+    transform: scale(1.2);
 }
 
+
 .card02-title{
-    font-size: 30px;
+    font-size: 25px;
     text-align: center;
-    padding: 20px 40px;
+    padding: 20px 0px;
     color: #435059;
     transition: .5s;
 }
@@ -933,7 +940,7 @@ overflow-x: hidden;
 }
 .card02-body li{
     display: inline-block;
-    padding: 10px 10px;
+    padding: 0px 10px;
     font-size: 18px;
     color: #e78b72;
 }
