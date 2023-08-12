@@ -182,6 +182,7 @@ button:hover{
     display: inline-block;
     max-width: 100%;
     height: auto;
+    border-radius: 10px;
 }
 
 .pe-xl-5 h1{
@@ -367,9 +368,11 @@ button:hover{
 }
 .card-image {
     overflow: hidden ;
+    border-radius: 10px;
 }
 .card-image img{
     transition: .5s;
+    border-radius: 10px;
 }
 .card-image img:hover{
     transform: scale(1.2);
@@ -758,11 +761,13 @@ overflow-x: hidden;
     display: inline-block;
     max-width: 100%;
     height: auto;
+    border-radius: 10px ;
 }
 .layout-4 img {
     display: inline-block;
     max-width: 100%;
     height: auto;
+    border-radius: 10px;
 }
 
 .pe-xl-5 h1{
@@ -914,9 +919,11 @@ overflow-x: hidden;
 }
 .card02-image {
     overflow: hidden ;
+    border-radius: 10px;
 }
 .card02-image img{
     transition: .5s;
+    border-radius: 10px;
 }
 .card02-image img:hover{
     transform: scale(1.2);
@@ -966,9 +973,6 @@ overflow-x: hidden;
     }
     .program02-top-content p {
         font-size: 16px;
-    }
-    .card02 img {
-        border-radius: 20px;
     }
     .secion-footer {
         padding: 50px 0;
