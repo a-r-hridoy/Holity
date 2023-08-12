@@ -251,14 +251,13 @@ button:hover{
 .mission{
     padding: 50px 0;
 }
+.mission-item {
+    padding: 50px 30px;
+    border-radius: 10px;
+    transition: .4s;
+}
 .mission1{
     background-color: #f5ab87;
-    padding: 30px 30px;
-    width: 350px;
-    height: 280px;
-    margin: 19px 22px;
-    border-radius: 10px;
-    transition: .2s;
 }
 .mission1:hover{
     background-color: #f5ab87;
@@ -267,12 +266,6 @@ button:hover{
 }
 .mission2{
     background-color: #d6eed7;
-    padding: 30px 30px;
-    width: 350px;
-    height: 280px;
-    margin: 19px 22px;
-    border-radius: 10px;
-    transition: .2s;
 }
 .mission2:hover{
     background-color: #d6eed7;
@@ -281,12 +274,6 @@ button:hover{
 }
 .mission3{
     background-color: #fcd7a2;
-    padding: 30px 30px; 
-    width: 350px;
-    height: 280px;
-    margin: 19px 22px;
-    border-radius: 10px;
-    transition: .2s;
 }
 .mission3:hover{
     background-color: #fcd7a2;
@@ -379,7 +366,6 @@ button:hover{
 }
 
 .card img{
-    max-width: 400px;
     transition: .5s;
 }
 .card img:hover{
@@ -536,7 +522,17 @@ overflow-x: hidden;
     h1, .h1 {
         font-size: 44.4px;
     }
-
+    .navbar .container {
+        position: relative;
+    }
+    .navbar-text {
+        position: absolute;
+        right: 72px;
+        top: 5px;
+    }
+    button {
+        padding: 12px 25px;
+    }
     .home-content button {
         margin: 30px 0;
         padding: 15px 26px;
@@ -561,11 +557,6 @@ overflow-x: hidden;
     }
 }
 @media screen and (max-width: 768px){
-    .navbar-text {
-        position: absolute;
-        right: 100px;
-        top: 12px;
-    }
     h1, .h1 {
         font-size: 32.4px;
     }
@@ -588,143 +579,87 @@ overflow-x: hidden;
 }
 
 @media screen and (max-width: 576px){
-    .layout-1 img {
-        max-width: 100%!important;
-        border-radius: 20px;
+    button {
+        padding: 8px 20px;
+    } 
+    .logo {
+        max-width: 140px;
+    }
+    .navbar-toggler{    
+        border: none;
+    }
+    .navbar-text {
+        position: absolute;
+        right: 70px;
+        top: 3px;
+    }
+    .home-section {
+        padding: 90px 0 80px 0!important;
     }
     h1, .h1 {
-        font-size: 36.4px;
+        font-size: 35.4px;
+        padding: 10px 0;
+    }
+    .home-content button {
+        padding: 12px 20px;
+    }
+    .text-block h2 {
+        font-size: 24px;
+    }
+    .mission1 {
+        padding: 30px 30px;
+        width: 100%;
+        margin: 0;
+    }
+    .mission2 {
+        padding: 30px 30px;
+        width: 100%;
+        margin: 0;
+    }
+    .mission3 {
+        padding: 30px 30px;
+        width: 100%;
+        margin: 0;
+    }
+    .layout-2-text {
+        padding-left: 0px;
+    }
+    .layout-2-text h1 {
+        font-size: 23px;
         padding: 18px 0;
     }
     .home-content button {
-        margin: 10px 0;
-    }
-    .text-block h2 {
-        font-size: 30px;
-    }
-    .mission1 {
-        width: 100%;
-        margin: 18px 0px;
-        text-align: center;
-    }
-    .mission2 {
-        width: 100%;
-        margin: 18px 0px;
-        text-align: center;
-    }
-    .mission3 {
-        width: 100%;
-        margin: 18px 0px;
-        text-align: center;
-    }
-    .layout-2 img {
-        max-width: 100%!important;
-        border-radius: 20px;
-    }
-    .layout-2-text h1 {
-        font-size: 26px;
-        padding: 15px 0 ;
-    }
-    .program-top-content h2 {
-        font-size: 48px;
-    }
-    .program-top-content p {
-        font-size: 15px;
-        padding: 17px 0;
-        max-width: 400px;
-    }
-    .card{
-        align-items: center;
-    }
-}
-
-@media screen and (max-width: 375px){
-    .navbar-text {
-        position: relative;
-        left:  230px;
-        top: .10px;
-    }
-    button {
-        padding: 10px 35px;
-    }
-    .program02-top-content p {
-        font-size: 16px;
-    }
-    .section-donation2 {
-        background-color: #FDECD2;
-        padding: 185px 0 30px 0!important;
-    }   
-    .program02-top-content h2 {
-        padding: 25px 0!important;
-    } 
-    .contact-content h2 {
-        max-width: 350px;
-        margin-top: 70px;
-    }
-    .layout-1 img{
-        margin-top: 50px;
-    }
-}
-
-
-@media screen and (max-width: 320px){
-    .navbar-text {
-        position: relative;
-        left:  200px;
-        top: .10px;
-    }
-    button {
-        padding: 8px 20px;
-    }
-    .layout-1 img {
-        margin-top: 30px;
-    }
-    h1, .h1 {
-        font-size: 30.4px;
-    }
-    .home-content button {
-        margin: 30px 0;
-        padding: 13px 18px;
-    }
-    .text-block h2 {
-        font-size: 25px;
-    }
-    .layout-2-text h1 {
-        font-size: 24px;
-    
-    }
-    .home-content button {
-        margin: 0;
-        padding: 11px 14px;
-    }
-    .program-top-content h2 {
-        font-size: 30px;
-    }
-    .program-top-content p {
-        font-size: 12px;
-        padding: 17px 0;
-        max-width: 400px;
+        padding: 12px 15px;
     }
     .section-program {
-        padding: 45px;
+        padding: 20px;
+    }
+    .program{
+        padding: 50px;
+    }
+    .program-top-content p {
+        font-size: 17px;
+        padding: 31px 0;
     }
     .card-title {
-        font-size: 17px;
-        padding: 15px 0px!important;
+        font-size: 25px;
+        padding: 14px 0px!important;
     }
     .card-body li {
-        padding: 0px;
+        padding: 10px 10px;
+        font-size: 16px;
     }
     .donation-content h2 {
-        font-size: 30px;
+        font-size: 35px;
     }
     .donation-content p {
-        font-size: 15px;
+        font-size: 16px;
     }
     .donation-content button {
-        margin: 30px 0 0;
-        padding: 13px 15px;
+        margin: 45px 0 0;
+        padding: 15px 25px;
     }
+
 }
 
 /* -------------------------------------------------------------------------------------------- */
@@ -886,64 +821,51 @@ overflow-x: hidden;
 }
 
 @media screen and (max-width: 576px){
+    .section-donation2 {
+        background-color: #FDECD2;
+        padding: 200px 0 130px 0;
+    }
     .donation2-content h2 {
-        font-size: 40px;
+        font-size: 35px;
     }
     .donation2-content p {
-        font-size: 15px;
-    }
-    .layout-4 img {
-        max-width: 100%;
-        border-radius: 20px;
+        font-size: 13px;
     }
     .layout-4-text {
         padding-left: 0px;
-        padding: 15px 0;
+        padding: 10px 0;
+    }
+    .layout-4-text h1 {
+        font-size: 30px;
+        padding: 10px 0;
     }
     .section-about {
-        padding: 20px 0;
+        padding: 0px 0 20px 0;
     }
     .section-about-content h2 {
         font-size: 40px;
     }
-    .support-content h2 {
-        font-size: 55px!important;
-    }
-    .support-content p {
-        font-size: 16px;
-        padding: 25px 0!important;
-    }
-}
-
-@media screen and (max-width: 320px){
-    .section-donation2 {
-        background-color: #FDECD2;
-        padding: 192px 0px 60px 0;
-    }
-    .donation2-content h2 {
-        font-size: 30px;
-    }
-    .donation2-content p {
-        font-size: 13px;
-    }
-    .home-about {
-        padding: 50px 0!important;
-    }
-    .layout-4 .layout-item {
-        display: none;
-    }
-    .layout-4-text h1 {
-        font-size: 26px;
-        padding: 8px 0px 0 0;
-    }
-    .home-content p {
-        font-size: 13px;
-    }
     .section-about-content p {
         font-size: 16px;
     }
-
-
+    .section-donation {
+        padding: 90px 0;
+    }
+    .donation-content button {
+        padding: 13px 15px;
+    }
+    .footer-title {
+        font-size: 26px;
+    }
+    .list a {
+        font-size: 16px;
+    }
+    .list li {
+        font-size: 16px;
+    }
+    .list-md li a {
+        font-size: 16px;
+    }
 }
 
 
@@ -1033,12 +955,10 @@ overflow-x: hidden;
 }
 @media screen and (max-width: 576px){
     .program02-top-content h2 {
-        font-size: 55px;
-        padding: 5px 0;
-        color: #435059;
+        font-size: 40px;
     }
     .program02-top-content p {
-        font-size: 18px;
+        font-size: 16px;
     }
     .card02 img {
         border-radius: 20px;
@@ -1055,20 +975,6 @@ overflow-x: hidden;
         margin-top: 50px;
     }
 }
-@media screen and (max-width: 320px){
-    .program02-top-content h2 {
-        font-size: 35px;
-        padding: 50px 0 0px 0;
-    }
-    .program02-top-content p {
-        font-size: 15px;
-    }
-    .card02-title {
-        font-size: 23px;
-    }
-}
-
-
 
 /* -------------------------------------------------------------------------------------------- */
 
@@ -1179,25 +1085,14 @@ overflow-x: hidden;
 @media screen and (max-width: 576px){
     .contact-content h2 {
         max-width: 350px;
+        font-size: 40px;
     }
     .contact-content p {
         font-size: 16px;
-        padding: 11px 78px 0 0;
-    }
-}
-@media screen and (max-width: 320px){
-    .contact-section{
-        padding: 150px 0 50px 0;
-    }
-    .contact-content h2 {
-        font-size: 35px;
-    }
-    .contact-content p {
-        padding: 11px 0px 0 0;
+        padding: 11px 8px 0 0;
     }
     .contact-btn {
-        padding: 10px 40px;
-        font-size: 18px;
+        padding: 9px 38px;
     }
 }
 
@@ -1338,6 +1233,9 @@ overflow-x: hidden;
     .section-donate {
         padding: 50px 0;
     }
+    .donate-box {
+        margin-left: 80px;
+    }
     .donate-top-cotent h2 {
         padding: 30px 0;
     }
@@ -1354,31 +1252,30 @@ overflow-x: hidden;
         padding: 37px 0;
     }
 }
-
-@media screen and (max-width: 320px){
+@media screen and (max-width: 576px){
+    .support-content h2 {
+        font-size: 45px;
+    }
     .support-content p {
         font-size: 15px;
+        padding: 30px 0;
     }
-    .support-box {
-        padding-top: 30px;
+    .box1{
+        font-size: 70px;
+    }
+    .box2{
+        font-size: 70px;
     }
     .support-box h2 {
         font-size: 30px;
     }
-    .support-box p{
+    .support-box p {
         font-size: 16px;
     }
-    .box1{
-        font-size: 4.5rem;
-    }
-    .box2{
-        font-size: 4.5rem;
-    }
-    .section-support {
-        padding: 150px 0 70px 0;
+    .support-box {
+        margin-top: 20px;
     }
     .donate-top-cotent h2 {
-        padding: 0;
         font-size: 35px;
     }
     .donate-box {
@@ -1388,19 +1285,14 @@ overflow-x: hidden;
         max-width: 50px;
     }
     .donate-box h2 {
-        font-size: 25px;
-    }
-    .donate-box p {
-        font-size: 17px;
+        font-size: 30px;
     }
     .donate-box h6 {
         font-size: 16px;
     }
     .donate-btn {
-        padding: 13px 35px;
-        font-size: 18px;
-    }
-    .donation-content button{
-        font-size: 16px;
+        margin: 10px 0;
+        padding: 12px 35px;
+        font-size: 20px;
     }
 }

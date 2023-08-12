@@ -120,21 +120,21 @@
             <h2>Welcome to Holity, a nationwide charitable, non-profit organization</h2>
           </div>
           <div class="owl-carousel owl-theme mission  ">
-            <div class="item mission1">
+            <div class="mission-item mission1">
                 <div class="blurb-number blurb-number-boxed blurb-number-primary    ">
                     <div class="blurb-number-value">01</div>
                     <h3 class="blurb-number-title">Our Goal</h3>
                     <div class="blurb-number-text">The goal of our organization is to  reduce the inequity in access to education &amp; health care.</div>
                   </div>
             </div>
-            <div class="item mission2">
+            <div class="mission-item mission2">
                 <div class="blurb-number blurb-number-boxed blurb-number-secondary    ">
                     <div class="blurb-number-value">02</div>
                     <h3 class="blurb-number-title">Our Goal</h3>
                     <div class="blurb-number-text">The goal of our organization is to  reduce the inequity in access to education &amp; health care.</div>
                   </div>
             </div>
-            <div class="item mission3">
+            <div class="mission-item mission3">
                 <div class="blurb-number blurb-number-boxed blurb-number-primary-light    ">
                     <div class="blurb-number-value">03</div>
                     <h3 class="blurb-number-title">Our Goal</h3>
@@ -178,8 +178,8 @@
             <h2>Our Campaigns</h2>
             <p>We regularly organize charitable campaigns aimed at changing the lives of people around the world.</p>
         </div>
-        <div class="owl-carousel program">
-            <div class="item">
+        <div class="row">
+            <div class="item col-md-4">
                 <div class="card">
                     <img src="assets/img/home/events-01-390x300.jpg" class="card-img-top" alt="...">
                   
@@ -193,7 +193,7 @@
                     </div>
                   </div>
             </div>
-            <div class="item">
+            <div class="item col-md-4">
                 <div class="card">
                     <img src="assets/img/home/events-02-390x300.jpg" class="card-img-top" alt="...">
                   
@@ -207,7 +207,7 @@
                     </div>
                   </div>
             </div>
-            <div class="item">
+            <div class="item col-md-4">
                 <div class="card">
                     <img src="assets/img/home/events-03-390x300.jpg" class="card-img-top" alt="...">
                   
@@ -403,23 +403,7 @@
         
         $('.mission').owlCarousel({
             loop:true,
-            margin:10,
-            nav:false,
-            responsive:{
-                0:{
-                    items:1
-                },
-                600:{
-                    items:2
-                },
-                1000:{
-                    items:3
-                }
-            }
-        })
-        $('.program').owlCarousel({
-            loop:true,
-            margin:10,
+            margin:25,
             nav:false,
             responsive:{
                 0:{
